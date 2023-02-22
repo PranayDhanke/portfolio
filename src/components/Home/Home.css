@@ -1,0 +1,63 @@
+.Home{
+    padding: 0% 10%;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-image: url(../.././images/BackImage.png); 
+}
+.home-header{
+    display: flex;
+    justify-content: center;
+    
+}
+.My-logo{
+    flex: 100;
+    display: flex;
+    letter-spacing: 5px;
+}
+
+.My-logo>img{
+    padding-top: 32px;
+    width: 50px;
+    height: 50px;
+}
+.home-contents >nav {
+    display: flex;
+    gap: 2rem;
+    padding-top: 50px;
+}
+.home-contents >nav >li{
+    color: white;
+    list-style: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+.home-contents>nav>li:hover{
+    color: red;
+    text-decoration: overline ;
+    transform: scale(1.3);
+}
+.home-body{
+    padding-top: 10%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: flex;
+}
+.h1s{
+    display: flex;
+    gap: 1rem;
+    margin-top: -10px;
+    margin-bottom: -40px
+}
+.body-left-contain{
+    padding: 10% 0;
+}
+.body-right-contain > img{
+    padding: 10% 15%;
+    width: 90%;
+    height: auto;
+}

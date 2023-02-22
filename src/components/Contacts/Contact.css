@@ -1,0 +1,72 @@
+.Contact{
+    background-color: black;
+    padding:0% 10% 0% 10%;
+    display: flex;
+    gap: 10rem;
+    height: 400px;
+}
+.links-contact >h1{
+    font-size: 3rem;
+    margin-top: -10px;
+}
+.links-contact>span{
+    margin-left: 10px;
+}
+.links-contact>i:nth-child(2){
+    color: red;
+}
+.links-contact>i:nth-child(6){
+    color: red;
+}
+
+.Email-contact>form >input {
+    width: 35rem;
+    height: 1.5rem;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.Email-contact>form>textarea{
+    width: 35rem;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.Email-contact>form>input{
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+.Email-contact>form>textarea{
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid ;
+    outline: none;
+}
+.Email-contact>form>button{
+    width: 6rem;
+    height: 2.2rem;
+    color: white;
+    border: 2px solid ;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+.links-contact>i{
+    cursor: pointer;
+}
+.Email-contact>form>button:hover{
+    transform: scale(1.1);
+    border: 2px solid red;
+}
+.Email-contact>form>textarea:hover,
+.Email-contact>form>input:hover{
+    border: 2px solid red;
+}
+
+.links-contact>a>i{
+    padding: 10px;
+}

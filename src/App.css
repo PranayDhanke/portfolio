@@ -1,0 +1,17 @@
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.5rem;
+}
+
+#spant{
+    color: white;
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: center;
+}
